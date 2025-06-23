@@ -4,9 +4,9 @@
   "description": "Food Ordering Website using MERN Stack",
   "main": "server.js",
   "scripts": {
-    "start": "node backend/server.js",
-    "dev": "nodemon backend/server.js",
-    "prod": "NODE_ENV=PRODUCTION node backend/server.js",
+    "start": "node Backend-obfuscated/server.js",
+    "dev": "nodemon Backend-obfuscated/server.js",
+    "prod": "NODE_ENV=PRODUCTION node Backend-obfuscated/server.js",
     "seeder": "node utils/seeder.js",
     "build": "npm install --omit=dev"
   },
